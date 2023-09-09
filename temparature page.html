@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel = "stylesheet" type="text/css" href="tempcon.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+				initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container d-flex flex-column justify-content-center w-100">
+        <h1>
+            Temperature Converter</h1>
+        <div class="text-center ">
+
+
+            <div class="col">
+                <label>Fahrenheit: </label>
+                <input type="number" placeholder="37" id="fahrenheit">
+            </div>
+
+            <div class="col">
+                <label>Celsius: </label>
+                <input type="number" placeholder="0" id="celsius">
+            </div>
+
+            <div class="col">
+                <label>Kelvin: </label>
+                <input type="number" placeholder="273.15" id="kelvin">
+            </div>
+            <h1 class="con">Converted Values</h1>
+            <P class="text" id="fahrenText"></P>
+            <p class="text" id="celciusText"></p>
+            <P class="text" id="kelvinText"></P>
+
+        </div>
+        <script src="tepcon.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
